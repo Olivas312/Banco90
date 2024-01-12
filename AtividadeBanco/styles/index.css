@@ -1,0 +1,114 @@
+:root{
+    --color1: #302727;
+    --color2: #ba2d2d;
+    --color3: #f2511b;
+    --color4: #f2861b;
+    --color5: #c7c730;
+}
+header, footer{
+    background-color: var(--color2);
+}
+#novaConta{
+    border: solid 2px white;
+    border-radius: 2px;
+    background-color: var(--color2);
+    color:white;
+    padding: .8rem;
+}
+#bemVindo{
+    width: 100%;
+    height: 50rem;
+    background-image: url(../assets/images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 13.5rem;
+    margin-top: 1rem;
+}
+#quadroBemVindo{
+    width: 43%;
+    background-color: #f2871b91;
+    padding: 1rem;    
+}
+#quadroBemVindo > button{
+    background-color: var(--color1);
+    color: white;
+    border: solid 1px var(--color3);
+    border-radius: 4px;
+    padding: 1.5rem;
+    font-size: 8pt;
+}
+#pagamento{
+    justify-content: space-around;
+}
+[data-text="pagamento"]{
+    margin: 5rem;
+}
+#card1,#card2,#card3{
+    border: solid 1px black;
+    padding: 10rem;
+}
+#beneficios{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: var(--color1);
+}
+#contrato{
+    width: 50%;
+    color: white;
+    text-align: justify;
+    padding: 5%;
+}
+#contrato > h1{
+    margin-bottom: 20px;
+}
+#pagarCerveja{
+    width: 50%;
+}
+#pagarCerveja > img{
+    width: 100%;
+}
+#clienteMulti{  
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center; 
+}
+.imgCard{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+}
+th:nth-child(n+1){
+    background-color: var(--color2);
+    padding: 1.5rem;
+}
+#vazio{
+    background-color: white;
+}
+td:nth-child(n+1){
+    border: .01rem solid black;
+}
+#tabelaAtendimento{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px 3px rgba(100, 100, 100, 0.39);
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+#clienteMultiBoxes{
+    text-align: center;
+}
+footer > h6{
+    text-align: center;
+    padding: 1.5rem;
+}
